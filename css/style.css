@@ -1,0 +1,22 @@
+
+.blog-featured-img {
+    width: 100%;
+    height: 480px;
+}
+
+.blog-thumbnail-img {
+    width: 100%;
+    height: 240px;
+}
+
+
+
+
+@media (min-width: 992px) 
+{ 
+    #contact {
+        width: 60%;
+    }
+
+}
+
