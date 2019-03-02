@@ -10,7 +10,46 @@
 }
 
 
+.navigation-bar
+{
+    background: #2dabdf;
+}
 
+h1, h2, h3, p
+{
+    color: #00539e;
+}
+
+body
+{
+    background-image: url("../images/bg2.jpg");
+    background-size: contain;
+    background-color: transparent;
+}
+
+
+.larger-text{
+    font-size: 18px;
+}
+
+.bubble
+{
+    border: 1px solid #00539e;
+    background: white;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.transparent-bubble
+{
+    border: 1px solid #00539e;
+    background: rgba(255,255,255,0.5);
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:20px;
+}
 
 @media (min-width: 992px) 
 { 

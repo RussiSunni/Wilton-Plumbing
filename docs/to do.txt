@@ -1,0 +1,30 @@
+
+Home Page
+
+
+
+About Page.
+Add a "The Team" header to the page, for the photos of the team.
+
+
+Teams Page
+
+
+
+Footer
+needs a bg colour (white I think)
+should be sticky
+
+
+Services Page
+margin between nav and page header
+bgs for all headers
+make lists more interesting
+
+
+Gallery
+and headers / labels
+
+
+Contact
+add map
