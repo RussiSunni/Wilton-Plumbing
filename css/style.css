@@ -22,9 +22,8 @@ h1, h2, h3, p
 
 body
 {
-    background-image: url("../images/bg2.jpg");
-    background-size: contain;
-    background-color: transparent;
+  
+    background-color: lightskyblue;
 }
 
 
@@ -39,6 +38,7 @@ body
     border-radius: 10px;
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 10px;
 }
 
 .transparent-bubble
@@ -59,3 +59,108 @@ body
 
 }
 
+
+
+/* ---- */
+
+
+
+
+header {
+    background: url(../images/blog-fullsize-05.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 700px;
+}
+
+.center-title {
+    position: relative;
+    top: 175px;
+}
+
+.portrait-icon {
+    border: 2px solid white;
+}
+
+/* Bootstrap override */
+
+.nav-link {
+    color:white!important;
+}
+
+footer li {
+    line-height: 2rem;
+}
+
+.overlay-effect {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(259, 67, 95, 0.7);
+    overflow:hidden;
+}
+
+.hovereffect {
+
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+
+  }
+
+  .hovereffect-rectangle {
+
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+
+  }
+  
+  .hovereffect .overlay, .hovereffect-rectangle .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    background-color: rgba(75,75,75,0.7);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    border-radius: .25rem!important;
+  }
+  
+  .hovereffect:hover .overlay, .hovereffect-rectangle:hover .overlay {
+    background-color: rgba(48, 152, 157, 0.4);
+    cursor: pointer; 
+  }
+  
+  .hovereffect img, .hovereffect-rectangle img {
+    display: block;
+    position: relative;
+  }
+  
+  .hovereffect p, .hovereffect-rectangle p {
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    -webkit-transform: translateY(135px);
+    -ms-transform: translateY(135px);
+    transform: translateY(135px);
+}
+  
+  
+.hovereffect:hover p, .hovereffect-rectangle:hover p {
+color: black;
+font-weight: bold;
+}
+  
+ 
