@@ -14,9 +14,8 @@
 <body>
     <div class="section">
         <header class="text-center">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-1"></div>
                     <div class="col">
                         <nav class="navbar navbar-expand-lg navbar-dark">
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -50,7 +49,6 @@
                             </div>
                         </nav>
                     </div>
-                    <div class="col-lg-1"></div>
                 </div>
             </div>
             <div class="center-title">
@@ -77,8 +75,8 @@
                             <div class="portrait-container mb-3">
 
                                 <img src="./images/homepage/homepage-portrait-1.jpg" class="rounded-circle img-fluid">
-                                <img src="images/music.svg"
-                                    class="rounded-circle px-2 py-2 bottom-right image2 portrait-icon"></div>
+                                <img src="images/homepage/truck-pickup-solid.svg"
+                                    class="rounded-circle px-2 py-2 bg-primary bottom-right image2 portrait-icon" height="42" width="42"></div>
 
                             <p class="heading"><strong>David Wilton</strong></p>
                             <p>Owner</p>
@@ -86,8 +84,8 @@
                         <div class="col-12 col-sm-6 col-md-3 text-center">
                             <div class="portrait-container mb-3">
                                 <img src="./images/homepage/homepage-portrait-2.jpg" class="rounded-circle img-fluid">
-                                <img src="images/brush.svg"
-                                    class="rounded-circle px-2 py-2 bottom-right portrait-icon"></div>
+                                <img src="images/homepage/headset-solid.svg"
+                                    class="rounded-circle px-2 py-2 bg-primary bottom-right portrait-icon" height="42" width="42"></div>
 
                             <p class="heading"><strong>Merissa Mac Master</strong></p>
                             <p>office manager</p>
@@ -95,8 +93,8 @@
                         <div class="col-12 col-sm-6 col-md-3 text-center">
                             <div class="portrait-container mb-3">
                                 <img src="./images/homepage/homepage-portrait-3.jpg" class="rounded-circle img-fluid">
-                                <img src="images/camera.svg"
-                                    class="rounded-circle px-2 py-2 bottom-right portrait-icon"></div>
+                                <img src="images/homepage/toolbox-solid.svg"
+                                    class="rounded-circle px-2 py-2 bg-primary bottom-right portrait-icon" height="42" width="42"></div>
 
                             <p class="heading"><strong>Allan Corolus</strong></p>
                             <p>Senior plumber
@@ -105,8 +103,8 @@
                         <div class="col-12 col-sm-6 col-md-3 text-center">
                             <div class="portrait-container mb-3">
                                 <img src="./images/homepage/homepage-portrait-4.jpg" class="rounded-circle img-fluid">
-                                <img src="images/airplane.svg"
-                                    class="rounded-circle px-2 py-2 bottom-right portrait-icon">
+                                <img src="images/homepage/wrench-solid.svg"
+                                    class="rounded-circle px-2 py-2 bg-primary bottom-right portrait-icon" height="42" width="42">
                             </div>
                             <p class="heading"><strong>Reza Parker</strong></p>
                             <p>Plumber</p>
