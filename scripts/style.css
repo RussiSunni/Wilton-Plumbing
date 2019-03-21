@@ -82,14 +82,14 @@ h1, h2, h3, p
 
 .portrait-container {
     position: relative;
-    width: 122px;
+    width: 200px;
     margin: auto;
 }
 
 .bottom-right {
     position: absolute;
     bottom: 0px;
-    right: 0px;
+    right: 28px;
 }
 
 .music {

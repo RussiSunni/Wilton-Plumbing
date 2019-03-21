@@ -36,9 +36,6 @@
                                         <a class="nav-link" href="./views/services.php">Services</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="./views/gallery.php">Gallery</a>
-                                    </li>
-                                    <li class="nav-item">
                                         <a class="btn btn-outline-light rounded-button" href="#contact"
                                             role="button">Contact Us</a>
                                     </li>
@@ -51,7 +48,7 @@
             <div class="center-title">
                 <h1 class="text-white"><strong>turn the worst day of the week</strong></h1>
                 <h2 class="text-white mb-3">into the best one</h2>
-                <a class="btn btn-info rounded-button" href="#" role="button">Contact us now</a>
+                <a class="btn btn-info rounded-button" href="#contact" role="button">Contact us now</a>
             </div>
         </header>
     </div>
@@ -68,7 +65,7 @@
                 <div class="col">
                     <div class="row">
 
-                        <div class="col-12 col-sm-6 col-md-3 text-center">
+                        <div class="col-12 col-md-6 col-lg-3 text-center">
                             <div class="portrait-container mb-3">
 
                                 <img src="./images/homepage/homepage-portrait-1.jpg" class="rounded-circle img-fluid">
@@ -78,7 +75,7 @@
                             <p class="heading"><strong>David Wilton</strong></p>
                             <p>Owner</p>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-3 text-center">
+                        <div class="col-12 col-md-6 col-lg-3 text-center">
                             <div class="portrait-container mb-3">
                                 <img src="./images/homepage/homepage-portrait-2.jpg" class="rounded-circle img-fluid">
                                 <img src="images/homepage/headset-solid.svg"
@@ -87,7 +84,7 @@
                             <p class="heading"><strong>Merissa Mac Master</strong></p>
                             <p>office manager</p>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-3 text-center">
+                        <div class="col-12 col-md-6 col-lg-3 text-center">
                             <div class="portrait-container mb-3">
                                 <img src="./images/homepage/homepage-portrait-3.jpg" class="rounded-circle img-fluid">
                                 <img src="images/homepage/toolbox-solid.svg"
@@ -97,7 +94,7 @@
                             <p>Senior plumber
                             </p>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-3 text-center">
+                        <div class="col-12 col-md-6 col-lg-3 text-center">
                             <div class="portrait-container mb-3">
                                 <img src="./images/homepage/homepage-portrait-4.jpg" class="rounded-circle img-fluid">
                                 <img src="images/homepage/wrench-solid.svg"
@@ -141,7 +138,7 @@
 
 
 
-        <div class="section gallery mt-5">
+        <section class="gallery mt-5">
             <div class="row">
                 <div class="col text-center">
                     <p class="heading"><strong>What is your current plumbing problem?</strong></p>
@@ -196,11 +193,14 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+   
+  
+
+
         <section>
             <footer class="mt-5">
                 <hr class="mb-4">
