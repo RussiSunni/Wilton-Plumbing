@@ -78,7 +78,7 @@
                         <div class="col-12 col-sm-6 col-md-3 text-center">
                             <div class="portrait-container mb-3">
 
-                                <img src="./images/homepage/homepage1.jpg" class="rounded-circle img-fluid">
+                                <img src="./images/homepage/homepage-portrait-1.jpg" class="rounded-circle img-fluid">
                                 <img src="images/music.svg"
                                     class="rounded-circle px-2 py-2 bottom-right image2 portrait-icon"></div>
 
@@ -87,7 +87,7 @@
                         </div>
                         <div class="col-12 col-sm-6 col-md-3 text-center">
                             <div class="portrait-container mb-3">
-                                <img src="./images/homepage/homepage2.jpg" class="rounded-circle img-fluid">
+                                <img src="./images/homepage/homepage-portrait-2.jpg" class="rounded-circle img-fluid">
                                 <img src="images/brush.svg"
                                     class="rounded-circle px-2 py-2 bottom-right portrait-icon"></div>
 
@@ -96,7 +96,7 @@
                         </div>
                         <div class="col-12 col-sm-6 col-md-3 text-center">
                             <div class="portrait-container mb-3">
-                                <img src="./images/homepage/homepage3.jpg" class="rounded-circle img-fluid">
+                                <img src="./images/homepage/homepage-portrait-3.jpg" class="rounded-circle img-fluid">
                                 <img src="images/camera.svg"
                                     class="rounded-circle px-2 py-2 bottom-right portrait-icon"></div>
 
@@ -106,7 +106,7 @@
                         </div>
                         <div class="col-12 col-sm-6 col-md-3 text-center">
                             <div class="portrait-container mb-3">
-                                <img src="./images/homepage/homepage4.jpg" class="rounded-circle img-fluid">
+                                <img src="./images/homepage/homepage-portrait-4.jpg" class="rounded-circle img-fluid">
                                 <img src="images/airplane.svg"
                                     class="rounded-circle px-2 py-2 bottom-right portrait-icon">
                             </div>
@@ -160,43 +160,43 @@
                         <div class="col">
                             <div class="row justify-content-center">
                                 <div class="hovereffect mx-2 my-2">
-                                    <img src="./images/gallery/gallery-thumbnail-01.jpg" alt="" class="rounded">
+                                    <img src="./images/homepage/homepage-problems-1.jpg" alt="" class="rounded">
                                     <div class="overlay">
                                         <p>leaking tap</p>
                                     </div>
                                 </div>
                                 <div class="hovereffect mx-2 my-2">
-                                    <img src="./images/gallery/gallery-thumbnail-02.jpg" alt="" class="rounded">
+                                    <img src="./images/homepage/homepage-problems-2.jpg" alt="" class="rounded">
                                     <div class="overlay">
                                         <p>burst geyser</p>
                                     </div>
                                 </div>
                                 <div class="hovereffect mx-2 my-2">
-                                    <img src="./images/gallery/gallery-thumbnail-03.jpg" alt="" class="rounded">
+                                    <img src="./images/homepage/homepage-problems-3.jpg" alt="" class="rounded">
                                     <div class="overlay">
                                         <p>blocked toilet</p>
                                     </div>
                                 </div>
                                 <div class="hovereffect mx-2 my-2">
-                                    <img src="./images/gallery/gallery-thumbnail-04.jpg" alt="" class="rounded">
+                                    <img src="./images/homepage/homepage-problems-4.jpg" alt="" class="rounded">
                                     <div class="overlay">
                                         <p>leaking pipe</p>
                                     </div>
                                 </div>
                                 <div class="hovereffect-rectangle mx-2 my-2">
-                                    <img src="./images/gallery/gallery-thumbnail-05.jpg" alt="" class="rounded">
+                                    <img src="./images/homepage/homepage-problems-5.jpg" alt="" class="rounded">
                                     <div class="overlay">
                                         <p>no water</p>
                                     </div>
                                 </div>
                                 <div class="hovereffect-rectangle mx-2 my-2">
-                                    <img src="./images/gallery/gallery-thumbnail-06.jpg" alt="" class="rounded">
+                                    <img src="./images/homepage/homepage-problems-6.jpg" alt="" class="rounded">
                                     <div class="overlay">
                                         <p>no hot water</p>
                                     </div>
                                 </div>
                                 <div class="hovereffect mx-2 my-2">
-                                    <img src="./images/gallery/gallery-thumbnail-08.jpg" alt="" class="rounded">
+                                    <img src="./images/homepage/homepage-problems-7.jpg" alt="" class="rounded">
                                     <div class="overlay">
                                         <p>low water pressure</p>
                                     </div>

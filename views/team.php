@@ -9,7 +9,7 @@
             </div>
             <div class="row mt-3">
                 <div class="col">
-                    <img src="../images/team-01.jpg" class="rounded">
+                    <img src="../images/team/team-01.jpg" class="rounded">
                 </div>
                 <div class="col">
                     <div class="bubble">
@@ -33,7 +33,7 @@
             </div>
 
             <div class="row mt-5 ">
-                    <div class="col-lg-3"><img src="../images/team-02.jpg" class="rounded"></div>
+                    <div class="col-lg-3"><img src="../images/team/team-02.jpg" class="rounded"></div>
                     <div class="col">
                         <div class="bubble">
                             <h2>Merissa Mac Master</h2>
@@ -52,7 +52,7 @@
 
 
                 <div class="row mt-5">
-                    <div class="col-lg-4"><img src="../images/team-03.jpg" class="rounded"></div>
+                    <div class="col-lg-4"><img src="../images/team/team-03.jpg" class="rounded"></div>
                     <div class="col">
                         <div class="bubble">
                             <h3>Allan Corolus</h3>
@@ -72,11 +72,11 @@
                             <p>He is hoping to write his trade test in 2018.</p>
                         </div>
                     </div>
-                    <div class="col-lg-3"><img src="../images/team-04.jpg" class="rounded"></div>
+                    <div class="col-lg-3"><img src="../images/team/team-04.jpg" class="rounded"></div>
                 </div>
 
                 <div class="row mt-5">
-                    <div class="col-lg-4"><img src="../images/team-05.jpg" class="rounded"></div>
+                    <div class="col-lg-4"><img src="../images/team/team-05.jpg" class="rounded"></div>
                     <div class="col">
                         <div class="bubble">
                             <h3>Will Roos</h3>
@@ -89,7 +89,7 @@
                 </div>
 
                 <div class="row mt-5">
-                    <div class="col-lg-3"><img src="../images/team-06.jpg" class="rounded"></div>
+                    <div class="col-lg-3"><img src="../images/team/team-06.jpg" class="rounded"></div>
                     <div class="col">
                         <div class="bubble">
                             <h3>Yusuf Waterloo</h3>
@@ -104,51 +104,51 @@
 
                 <div class="row justify-content-around mt-5">
                     <figure class="figure transparent-bubble">
-                        <img src="../images/team-07.jpg" alt="..." class="rounded"
+                        <img src="../images/team/team-07.jpg" alt="..." class="rounded"
                             style="width:216px;height:287px;">
                         <figcaption class="figure-caption">David Wilton - Owner</figcaption>
                     </figure>
                     <figure class="figure transparent-bubble">
-                        <img src="../images/team-08.jpg" alt="..." class="rounded"
+                        <img src="../images/team/team-08.jpg" alt="..." class="rounded"
                             style="width:216px;height:287px;">
                         <figcaption class="figure-caption">Merissa Mac Master - Operations Manager</figcaption>
                     </figure>
                     <figure class="figure transparent-bubble">
-                        <img src="../images/team-09.jpg" alt="..." class="rounded"
+                        <img src="../images/team/team-09.jpg" alt="..." class="rounded"
                             style="width:216px;height:287px;">
                         <figcaption class="figure-caption">Will Roos - Artisan</figcaption>
                     </figure>
                 </div>
                 <div class="row justify-content-around mt-5">
                     <figure class="figure transparent-bubble">
-                        <img src="../images/team-10.jpg" alt="..." class="rounded"
+                        <img src="../images/team/team-10.jpg" alt="..." class="rounded"
                             style="width:216px;height:287px;">
                         <figcaption class="figure-caption">Allan Carolus - Plumber</figcaption>
                     </figure>
                     <figure class="figure transparent-bubble">
-                        <img src="../images/team-11.jpg" alt="..." class="rounded"
+                        <img src="../images/team/team-11.jpg" alt="..." class="rounded"
                             style="width:216px;height:287px;">
                         <figcaption class="figure-caption">Yusuf "Joe" Waterloo - Plumber</figcaption>
                     </figure>
                     <figure class="figure transparent-bubble">
-                        <img src="../images/team-12.jpg" alt="..." class="rounded"
+                        <img src="../images/team/team-12.jpg" alt="..." class="rounded"
                             style="width:216px;height:287px;">
                         <figcaption class="figure-caption">Reza Parker - Plumber</figcaption>
                     </figure>
                 </div>
                 <div class="row justify-content-around mt-5">
                     <figure class="figure transparent-bubble">
-                        <img src="../images/team-13.jpg" alt="..." class="rounded"
+                        <img src="../images/team/team-13.jpg" alt="..." class="rounded"
                             style="width:216px;height:287px;">
                         <figcaption class="figure-caption">Keenan Brown - Plumber</figcaption>
                     </figure>
                     <figure class="figure transparent-bubble">
-                        <img src="../images/team-14.jpg" alt="..." class="rounded"
+                        <img src="../images/team/team-14.jpg" alt="..." class="rounded"
                             style="width:216px;height:287px;">
                         <figcaption class="figure-caption">Aldret Yorke - Apprentice</figcaption>
                     </figure>
                     <figure class="figure transparent-bubble">
-                        <img src="../images/team-15.jpg" alt="..." class="rounded"
+                        <img src="../images/team/team-15.jpg" alt="..." class="rounded"
                             style="width:216px;height:287px;">
                         <figcaption class="figure-caption">Ninja - Plumber</figcaption>
                     </figure>
