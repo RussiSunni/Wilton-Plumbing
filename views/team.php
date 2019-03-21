@@ -1,51 +1,7 @@
-<!doctype html>
-<html lang="en">
+<?php
+    require "header.php";
+?>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Wilton Plumbing</title>
-</head>
-
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-            <img src="./images/logo.png" width="200" height="60" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav justify-content-center">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="team.html">Team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="services.html">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="blog.html">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
     <div class="container">
         <section>
             <div class="row mt-3">
@@ -53,7 +9,7 @@
             </div>
             <div class="row mt-3">
                 <div class="col">
-                    <img src="./images/team-01.jpg" class="rounded">
+                    <img src="../images/team-01.jpg" class="rounded">
                 </div>
                 <div class="col">
                     <div class="bubble">
@@ -77,7 +33,7 @@
             </div>
 
             <div class="row mt-5 ">
-                    <div class="col-lg-3"><img src="images/team-02.jpg" class="rounded"></div>
+                    <div class="col-lg-3"><img src="../images/team-02.jpg" class="rounded"></div>
                     <div class="col">
                         <div class="bubble">
                             <h2>Merissa Mac Master</h2>
@@ -96,7 +52,7 @@
 
 
                 <div class="row mt-5">
-                    <div class="col-lg-4"><img src="images/team-03.jpg" class="rounded"></div>
+                    <div class="col-lg-4"><img src="../images/team-03.jpg" class="rounded"></div>
                     <div class="col">
                         <div class="bubble">
                             <h3>Allan Corolus</h3>
@@ -116,11 +72,11 @@
                             <p>He is hoping to write his trade test in 2018.</p>
                         </div>
                     </div>
-                    <div class="col-lg-3"><img src="images/team-04.jpg" class="rounded"></div>
+                    <div class="col-lg-3"><img src="../images/team-04.jpg" class="rounded"></div>
                 </div>
 
                 <div class="row mt-5">
-                    <div class="col-lg-4"><img src="images/team-05.jpg" class="rounded"></div>
+                    <div class="col-lg-4"><img src="../images/team-05.jpg" class="rounded"></div>
                     <div class="col">
                         <div class="bubble">
                             <h3>Will Roos</h3>
@@ -133,7 +89,7 @@
                 </div>
 
                 <div class="row mt-5">
-                    <div class="col-lg-3"><img src="images/team-06.jpg" class="rounded"></div>
+                    <div class="col-lg-3"><img src="../images/team-06.jpg" class="rounded"></div>
                     <div class="col">
                         <div class="bubble">
                             <h3>Yusuf Waterloo</h3>
@@ -148,51 +104,51 @@
 
                 <div class="row justify-content-around mt-5">
                     <figure class="figure transparent-bubble">
-                        <img src="./images/team-07.jpg" alt="..." class="rounded"
+                        <img src="../images/team-07.jpg" alt="..." class="rounded"
                             style="width:216px;height:287px;">
                         <figcaption class="figure-caption">David Wilton - Owner</figcaption>
                     </figure>
                     <figure class="figure transparent-bubble">
-                        <img src="./images/team-08.jpg" alt="..." class="rounded"
+                        <img src="../images/team-08.jpg" alt="..." class="rounded"
                             style="width:216px;height:287px;">
                         <figcaption class="figure-caption">Merissa Mac Master - Operations Manager</figcaption>
                     </figure>
                     <figure class="figure transparent-bubble">
-                        <img src="./images/team-09.jpg" alt="..." class="rounded"
+                        <img src="../images/team-09.jpg" alt="..." class="rounded"
                             style="width:216px;height:287px;">
                         <figcaption class="figure-caption">Will Roos - Artisan</figcaption>
                     </figure>
                 </div>
                 <div class="row justify-content-around mt-5">
                     <figure class="figure transparent-bubble">
-                        <img src="./images/team-10.jpg" alt="..." class="rounded"
+                        <img src="../images/team-10.jpg" alt="..." class="rounded"
                             style="width:216px;height:287px;">
                         <figcaption class="figure-caption">Allan Carolus - Plumber</figcaption>
                     </figure>
                     <figure class="figure transparent-bubble">
-                        <img src="./images/team-11.jpg" alt="..." class="rounded"
+                        <img src="../images/team-11.jpg" alt="..." class="rounded"
                             style="width:216px;height:287px;">
                         <figcaption class="figure-caption">Yusuf "Joe" Waterloo - Plumber</figcaption>
                     </figure>
                     <figure class="figure transparent-bubble">
-                        <img src="./images/team-12.jpg" alt="..." class="rounded"
+                        <img src="../images/team-12.jpg" alt="..." class="rounded"
                             style="width:216px;height:287px;">
                         <figcaption class="figure-caption">Reza Parker - Plumber</figcaption>
                     </figure>
                 </div>
                 <div class="row justify-content-around mt-5">
                     <figure class="figure transparent-bubble">
-                        <img src="./images/team-13.jpg" alt="..." class="rounded"
+                        <img src="../images/team-13.jpg" alt="..." class="rounded"
                             style="width:216px;height:287px;">
                         <figcaption class="figure-caption">Keenan Brown - Plumber</figcaption>
                     </figure>
                     <figure class="figure transparent-bubble">
-                        <img src="./images/team-14.jpg" alt="..." class="rounded"
+                        <img src="../images/team-14.jpg" alt="..." class="rounded"
                             style="width:216px;height:287px;">
                         <figcaption class="figure-caption">Aldret Yorke - Apprentice</figcaption>
                     </figure>
                     <figure class="figure transparent-bubble">
-                        <img src="./images/team-15.jpg" alt="..." class="rounded"
+                        <img src="../images/team-15.jpg" alt="..." class="rounded"
                             style="width:216px;height:287px;">
                         <figcaption class="figure-caption">Ninja - Plumber</figcaption>
                     </figure>
@@ -203,24 +159,6 @@
 
 
     </div>
-
-    <footer class="footer">
-        <div class="container">
-            <hr>
-            <p class="text-muted float-right">&copy;ecomap</p>
-        </div>
-    </footer>
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-</body>
-
-</html>
+<?php
+    require "footer.php";
+?>

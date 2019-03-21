@@ -8,7 +8,7 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./scripts/style.css">
 </head>
 
 <body>
@@ -32,16 +32,16 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="team.html">The Team</a>
+                                        <a class="nav-link" href="./views/team.php">The Team</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="services.html">Services</a>
+                                        <a class="nav-link" href="./views/services.php">Services</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="gallery.html">Gallery</a>
+                                        <a class="nav-link" href="./views/gallery.php">Gallery</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="blog.html">Blog</a>
+                                        <a class="nav-link" href="./views/blog.php">Blog</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="btn btn-outline-light rounded-button" href="contact.html"
@@ -57,7 +57,7 @@
             </div>
             <div class="center-title">
                 <h1 class="text-white"><strong>turn the worst day of the week</strong></h1>
-                <h2 class="text-white">into the best one</h2>
+                <h2 class="text-white mb-3">into the best one</h2>
                 <a class="btn btn-info rounded-button" href="#" role="button">Contact us now</a>
             </div>
         </header>
@@ -78,27 +78,27 @@
                         <div class="col-12 col-sm-6 col-md-3 text-center">
                             <div class="portrait-container mb-3">
 
-                                <img src="./images/team-07.jpg" class="rounded-circle img-fluid image1">
+                                <img src="./images/homepage/homepage1.jpg" class="rounded-circle img-fluid">
                                 <img src="images/music.svg"
-                                    class="music rounded-circle px-2 py-2 bottom-right image2 portrait-icon"></div>
+                                    class="rounded-circle px-2 py-2 bottom-right image2 portrait-icon"></div>
 
                             <p class="heading"><strong>David Wilton</strong></p>
                             <p>Owner</p>
                         </div>
                         <div class="col-12 col-sm-6 col-md-3 text-center">
                             <div class="portrait-container mb-3">
-                                <img src="./images/team-08.jpg" class="rounded-circle img-fluid">
+                                <img src="./images/homepage/homepage2.jpg" class="rounded-circle img-fluid">
                                 <img src="images/brush.svg"
-                                    class="brush rounded-circle px-2 py-2 bottom-right portrait-icon"></div>
+                                    class="rounded-circle px-2 py-2 bottom-right portrait-icon"></div>
 
                             <p class="heading"><strong>Merissa Mac Master</strong></p>
                             <p>office manager</p>
                         </div>
                         <div class="col-12 col-sm-6 col-md-3 text-center">
                             <div class="portrait-container mb-3">
-                                <img src="./images/team-09.jpg" class="rounded-circle img-fluid">
+                                <img src="./images/homepage/homepage3.jpg" class="rounded-circle img-fluid">
                                 <img src="images/camera.svg"
-                                    class="camera rounded-circle px-2 py-2 bottom-right portrait-icon"></div>
+                                    class="rounded-circle px-2 py-2 bottom-right portrait-icon"></div>
 
                             <p class="heading"><strong>Allan Corolus</strong></p>
                             <p>Senior plumber
@@ -106,9 +106,9 @@
                         </div>
                         <div class="col-12 col-sm-6 col-md-3 text-center">
                             <div class="portrait-container mb-3">
-                                <img src="./images/team-10.jpg" class="rounded-circle img-fluid">
+                                <img src="./images/homepage/homepage4.jpg" class="rounded-circle img-fluid">
                                 <img src="images/airplane.svg"
-                                    class="airplane rounded-circle px-2 py-2 bottom-right portrait-icon">
+                                    class="rounded-circle px-2 py-2 bottom-right portrait-icon">
                             </div>
                             <p class="heading"><strong>Reza Parker</strong></p>
                             <p>Plumber</p>
@@ -126,7 +126,7 @@
             </div>
         </div>
 
-        <section class="bubble mt-5">
+        <section class="mt-5">
             <div class="row larger-text">
                 <h4>About Us</h4>
                 <p>Our professional plumbing company was started in 2015. We have always maintained the highest level of
@@ -209,62 +209,49 @@
             </div>
         </div>
         <section>
+            <footer class="mt-5">
+                <hr class="mb-4">
 
-        </section>
+                <div class="row">
+                    <h1>Contact Us</h1>
+                </div>
 
-
-
-
-        <footer class="mt-5">
-            <hr class="pink-hr mb-4">
-
-
-            <div class="row justify-content-center">
-                <form id="contact">
+                <form method = "post" action = "index.php">
                     <div class="form-group row">
-
                         <div class="col">
-                            <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                            <input type="text" class="form-control" name="fname" placeholder="firstname">
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="form-group row">
                         <div class="col">
-                            <input type="text" class="form-control" placeholder="First name">
-                        </div>
-                        <div class="col">
-                            <input type="text" class="form-control" placeholder="Last name">
+                            <input type="text" class="form-control" name="sname" placeholder="surname">
                         </div>
                     </div>
-                    <div class="form-group mt-3">
-                        <label for="exampleFormControlSelect1">Inquiring about *</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                            <option>Installation</option>
-                            <option>Leak</option>
-                            <option>Billing</option>
-                            <option>General</option>
-                        </select>
+                    <div class="form-group row">
+                        <div class="col">
+                            <input type="text" class="form-control" name="email" placeholder="email address">
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlSelect1">How did you hear about us?</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                            <option>Word of Mouth</option>
-                            <option>Google</option>
-                            <option>Social Media</option>
-                            <option>Other</option>
-                        </select>
+                    <div class="form-group row">
+                        <div class="col">
+                            <input type="text" class="form-control" name="phone" placeholder="phone number">
+                        </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <div class="form-group row">
+                        <div class="col">
+                            <input type="text" class="form-control" name="message" placeholder="your message">
+                        </div>
+                    </div>
+                    <button type="submit" name="submit" value="Submit" class="btn btn-primary">Submit</button>
                 </form>
-            </div>
 
 
 
+                </footer>
 
-
-
-        </footer>
-
-
+            </section>
+ 
+   
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>
@@ -277,3 +264,65 @@
 </body>
 
 </html>
+
+
+<?php
+      
+ 
+      $fname = $sname = $email = $phone = $message = "";
+      
+      if ($_SERVER["REQUEST_METHOD"] == "POST") {
+         $fname = test_input($_POST["fname"]);
+         $sname = test_input($_POST["sname"]);
+         $email = test_input($_POST["email"]);
+         $phone = test_input($_POST["phone"]);
+         $message = test_input($_POST["message"]);
+      }
+      
+      function test_input($data) {
+         $data = trim($data);
+         $data = stripslashes($data);
+         $data = htmlspecialchars($data);
+         return $data;
+      }
+
+
+     // connect to db
+     $servername = "localhost";
+     $username = "root";
+     $password = "Shukuk@1";
+     $dbname = "wilton-plumbing";
+
+
+     // Create connection
+     $conn = new mysqli($servername, $username, $password, $dbname);
+
+     // Check connection
+     if ($conn->connect_error) {
+         die("Connection failed: " . $conn->connect_error);
+     } 
+     echo "Connected successfully";
+
+
+     // get the form values
+     $sql = "INSERT INTO email (firstname, lastname, email, phone, message)
+     VALUES ('".$fname."', '".$sname."', '".$email."', '".$phone."','".$message."')";
+
+
+
+
+     if ($conn->query($sql) === TRUE) {
+         echo "New record created successfully";
+     } else {
+         echo "Error: " . $sql . "<br>" . $conn->error;
+     }
+
+
+     $conn->close();
+
+   ?>
+
+
+
+
+
