@@ -23,7 +23,7 @@
                                 aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
-                            <a class="navbar-brand" href="#">
+                            <a class="navbar-brand bg-light px-2 rounded" href="#">
                                 <img src="./images/logo.png" width="200" height="60" alt="">
                             </a>
 
@@ -39,10 +39,7 @@
                                         <a class="nav-link" href="./views/gallery.php">Gallery</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="./views/blog.php">Blog</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="btn btn-outline-light rounded-button" href="contact.html"
+                                        <a class="btn btn-outline-light rounded-button" href="#contact"
                                             role="button">Contact Us</a>
                                     </li>
                                 </ul>
@@ -58,7 +55,7 @@
             </div>
         </header>
     </div>
-    <div class="container mt-5">
+    <div class="container-fluid mt-5">
         <div class="section">
             <div class="row">
                 <div class="col text-center">
@@ -75,7 +72,7 @@
                             <div class="portrait-container mb-3">
 
                                 <img src="./images/homepage/homepage-portrait-1.jpg" class="rounded-circle img-fluid">
-                                <img src="images/homepage/truck-pickup-solid.svg"
+                                <img src="images/homepage/shuttle-van-solid.svg"
                                     class="rounded-circle px-2 py-2 bg-primary bottom-right image2 portrait-icon" height="42" width="42"></div>
 
                             <p class="heading"><strong>David Wilton</strong></p>
@@ -122,7 +119,7 @@
             </div>
         </div>
 
-        <section class="mt-5">
+        <section class="container mt-5">
             <div class="row larger-text">
                 <h4>About Us</h4>
                 <p>Our professional plumbing company was started in 2015. We have always maintained the highest level of
@@ -147,7 +144,7 @@
         <div class="section gallery mt-5">
             <div class="row">
                 <div class="col text-center">
-                    <p class="heading"><strong>Choose you current plumbing problem</strong></p>
+                    <p class="heading"><strong>What is your current plumbing problem?</strong></p>
                 </div>
             </div>
             <div class="row">
@@ -207,56 +204,58 @@
         <section>
             <footer class="mt-5">
                 <hr class="mb-4">
-
                 <div class="row">
-                    <h1>Contact Us</h1>
+                    <div class="col-md-8">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1653.9159931518677!2d18.47141346888696!3d-33.99684907168513!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1553179104389" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md-4" id="contact">
+                        <div class="row mb-3">
+                            <h2>Contact Us</h2>
+                        </div>
+                        
+                
+                        <form method = "post" action = "index.php">
+                            <div class="form-group row">
+                                <div class="col">
+                                    <input type="text" class="form-control" name="fname" placeholder="firstname">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col">
+                                    <input type="text" class="form-control" name="sname" placeholder="surname">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col">
+                                    <input type="text" class="form-control" name="email" placeholder="email address">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col">
+                                    <input type="text" class="form-control" name="phone" placeholder="phone number">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col">
+                                    <input type="text" class="form-control" name="message" placeholder="your message">
+                                </div>
+                            </div>
+                            <button type="submit" name="submit" value="Submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
                 </div>
-
-                <form method = "post" action = "index.php">
-                    <div class="form-group row">
-                        <div class="col">
-                            <input type="text" class="form-control" name="fname" placeholder="firstname">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col">
-                            <input type="text" class="form-control" name="sname" placeholder="surname">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col">
-                            <input type="text" class="form-control" name="email" placeholder="email address">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col">
-                            <input type="text" class="form-control" name="phone" placeholder="phone number">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col">
-                            <input type="text" class="form-control" name="message" placeholder="your message">
-                        </div>
-                    </div>
-                    <button type="submit" name="submit" value="Submit" class="btn btn-primary">Submit</button>
-                </form>
-
-
-
-                </footer>
-
-            </section>
- 
-   
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
+                    
+            </footer>
+        </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
@@ -317,7 +316,6 @@
      $conn->close();
 
    ?>
-
 
 
 

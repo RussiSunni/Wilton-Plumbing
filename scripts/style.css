@@ -60,16 +60,10 @@ h1, h2, h3, p
 }
 
 
-
-
-
 .rounded-button
 {
     border-radius: 40px;
 }
-
-
-
 
 
 .img-container {
@@ -156,9 +150,8 @@ h1, h2, h3, p
 
 header {
     background: url(../images/homepage/homepage-banner.jpg);
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position-x: center;
     min-height: 720px;
 }
 
@@ -255,6 +248,7 @@ font-weight: bold;
  
 
 .navbar {
-   
     font-size: 2rem;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
