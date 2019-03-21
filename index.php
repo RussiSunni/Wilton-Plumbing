@@ -19,7 +19,6 @@
                     <div class="col-lg-1"></div>
                     <div class="col">
                         <nav class="navbar navbar-expand-lg navbar-dark">
-                            <!-- <div class="d-md-flex d-block flex-row mx-md-auto mx-0"> -->
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false" aria-label="Toggle navigation">
@@ -49,7 +48,6 @@
                                     </li>
                                 </ul>
                             </div>
-                            <!-- </div> -->
                         </nav>
                     </div>
                     <div class="col-lg-1"></div>
@@ -66,7 +64,7 @@
         <div class="section">
             <div class="row">
                 <div class="col text-center">
-                    <p class="heading"><strong>The team</strong></p>
+                    <h3><strong>the team</strong></h3>
                 </div>
             </div>
             <div class="row mt-1">
@@ -120,8 +118,8 @@
             </div>
             <div class="row">
                 <div class="col text-center">
-                    <a class="btn bg-info text-white rounded-button mt-5" href="team.html" role="button">see the rest of the
-                        team.</a>
+                    <a class="btn bg-info text-white rounded-button mt-5" href="./views/team.php" role="button">see the rest of the
+                        team</a>
                 </div>
             </div>
         </div>
