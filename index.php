@@ -108,13 +108,63 @@
                 <div class="col-lg-1">
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col text-center">
                     <a class="btn bg-info text-white rounded-button mt-5" href="./views/team.php" role="button">see the rest of the
                         team</a>
                 </div>
+            </div> -->
+            <div class="row">
+                <div class="col text-center">
+                    <p>
+                        <a class="btn bg-info text-white rounded-button mt-5" data-toggle="collapse" href="#collapseTeam" role="button" aria-expanded="false" aria-controls="collapseTeam">
+                            see the rest of the team
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="collapse" id="collapseTeam">
+                <div class="card card-body">
+                    <div class="row justify-content-around mt-5">
+                        <figure class="figure transparent-bubble">
+                            <img src="../images/team/team-10.jpg" alt="..." class="rounded"
+                                style="width:216px;height:287px;">
+                            <figcaption class="figure-caption">Allan Carolus - Plumber</figcaption>
+                        </figure>
+                        <figure class="figure transparent-bubble">
+                            <img src="../images/team/team-11.jpg" alt="..." class="rounded"
+                                style="width:216px;height:287px;">
+                            <figcaption class="figure-caption">Yusuf "Joe" Waterloo - Plumber</figcaption>
+                        </figure>
+                        <figure class="figure transparent-bubble">
+                            <img src="../images/team/team-12.jpg" alt="..." class="rounded"
+                                style="width:216px;height:287px;">
+                            <figcaption class="figure-caption">Reza Parker - Plumber</figcaption>
+                        </figure>
+                    </div>
+                    <div class="row justify-content-around mt-5">
+                        <figure class="figure transparent-bubble">
+                            <img src="../images/team/team-13.jpg" alt="..." class="rounded"
+                                style="width:216px;height:287px;">
+                            <figcaption class="figure-caption">Keenan Brown - Plumber</figcaption>
+                        </figure>
+                        <figure class="figure transparent-bubble">
+                            <img src="../images/team/team-14.jpg" alt="..." class="rounded"
+                                style="width:216px;height:287px;">
+                            <figcaption class="figure-caption">Aldret Yorke - Apprentice</figcaption>
+                        </figure>
+                        <figure class="figure transparent-bubble">
+                            <img src="../images/team/team-15.jpg" alt="..." class="rounded"
+                                style="width:216px;height:287px;">
+                            <figcaption class="figure-caption">Ninja - Plumber</figcaption>
+                        </figure>
+                    </div>
+                       
+                </div>
             </div>
         </div>
+
+       
 
         <section class="container mt-5">
             <div class="row larger-text">
