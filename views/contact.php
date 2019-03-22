@@ -1,5 +1,5 @@
 <?php
-    require "header.php";
+    include "header.php";
 ?>
 
     <div class="container">
@@ -65,7 +65,7 @@
     </div>
 
 <?php
-    require "footer.php";
+    include "footer.php";
 ?>
 
 

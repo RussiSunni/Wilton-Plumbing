@@ -1,6 +1,6 @@
 
 <?php
-    require "header.php";
+    include "header.php";
 ?>
 
     <div class="container">
@@ -96,5 +96,5 @@
 
 
 <?php
-    require "footer.php";
+    include "footer.php";
 ?>

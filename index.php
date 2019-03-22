@@ -205,15 +205,15 @@
             <footer class="mt-5">
                 <hr class="mb-4">
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-12">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1653.9159931518677!2d18.47141346888696!3d-33.99684907168513!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1553179104389" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
-                    <div class="col-md-4" id="contact">
-                        <div class="row mb-3">
-                            <h2>Contact Us</h2>
-                        </div>
-                        
-                
+
+
+                    <div id="contact" class="bg-info px-2 py-2 w-25">
+                       
+                        <h2 class="text-white">Contact Us</h2>
+                       
                         <form method = "post" action = "index.php">
                             <div class="form-group row">
                                 <div class="col">
@@ -243,6 +243,8 @@
                             <button type="submit" name="submit" value="Submit" class="btn btn-primary">Submit</button>
                         </form>
                     </div>
+
+
                 </div>
                     
             </footer>
