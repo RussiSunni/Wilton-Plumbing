@@ -64,44 +64,100 @@
                 </div>
                 <div class="col">
                     <div class="row">
-
                         <div class="col-12 col-md-6 col-lg-3 text-center">
                             <div class="portrait-container mb-3">
-
-                                <img src="./images/homepage/homepage-portrait-1.jpg" class="rounded-circle img-fluid">
+                            <a data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><img src="./images/homepage/homepage-portrait-1.jpg" class="rounded-circle img-fluid"></a>
                                 <img src="images/homepage/shuttle-van-solid.svg"
                                     class="rounded-circle px-2 py-2 bg-primary bottom-right image2 portrait-icon" height="42" width="42"></div>
-
                             <p class="heading"><strong>David Wilton</strong></p>
                             <p>Owner</p>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                        <div class="card card-body">
+                                            <p>B.A. (University of Cape Town 2007)</p>
+                                            <p>Qualified plumber (CETA Certificate 2010)</p>
+                                            <p>I love working with my hands. I grew up helping my father in his workshop from an early age,
+                                                helping him to fix his motorbikes, boats and various other DIY projects.</p>
+                                            <p>While completing my BA Degree at UCT (majoring in Sociology and English) in 2007, I realized that
+                                                my passion was, in fact, to be a plumber! I then dedicated myself to mastering plumbing and have
+                                                been active in the trade for the past eight years.</p>
+                                            <p>After a two year apprenticeship at a well-established and respected plumbing company in Cape
+                                                Town, I qualified as a plumber, staying on to gain experience for a further five years.</p>
+                                            <p>I have now launched my own company and am excited, and eager to be at hand for whatever your
+                                                plumbing needs may be!</p>
+                                            <p><strong>I give a six month guarantee on every job.</strong></p>
+                                            <p><strong>Try me. You won’t be sorry!</strong></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-3 text-center">
                             <div class="portrait-container mb-3">
-                                <img src="./images/homepage/homepage-portrait-2.jpg" class="rounded-circle img-fluid">
+                             <a data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2"><img src="./images/homepage/homepage-portrait-2.jpg" class="rounded-circle img-fluid"></a>
                                 <img src="images/homepage/headset-solid.svg"
                                     class="rounded-circle px-2 py-2 bg-primary bottom-right portrait-icon" height="42" width="42"></div>
-
                             <p class="heading"><strong>Merissa Mac Master</strong></p>
                             <p>office manager</p>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                        <div class="card card-body">
+                                        <h2>Merissa Mac Master</h2>
+                                        <p><strong>Operations Manager</strong></p>
+                                        <p>Merissa is our office manager.</p>
+                                        <p>She takes calls, does bookings, keeps track of where the
+                                            plumbers are,
+                                            does quotes and a million and one other things. She does the job of three people and
+                                            seems to
+                                            always
+                                            have a smile on her face. She really is the cement that holds the whole company
+                                            together.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-3 text-center">
                             <div class="portrait-container mb-3">
-                                <img src="./images/homepage/homepage-portrait-3.jpg" class="rounded-circle img-fluid">
+                            <a data-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3"><img src="./images/homepage/homepage-portrait-3.jpg" class="rounded-circle img-fluid"></a>
                                 <img src="images/homepage/toolbox-solid.svg"
                                     class="rounded-circle px-2 py-2 bg-primary bottom-right portrait-icon" height="42" width="42"></div>
-
                             <p class="heading"><strong>Allan Corolus</strong></p>
                             <p>Senior plumber
                             </p>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="multiCollapseExample3">
+                                        <div class="card card-body">
+                                        <h3>Allan Corolus</h3>
+                                        <p>Has 22 years plumbing experience and fearlessly tackles any task big or small.</p>
+                                        <p>He has a infectious sense of humour and is a very positive minded person.</p>
+                                        <p>He is best known for his "not a problem" reply to any job passed his way. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-3 text-center">
                             <div class="portrait-container mb-3">
-                                <img src="./images/homepage/homepage-portrait-4.jpg" class="rounded-circle img-fluid">
+                            <a data-toggle="collapse" href="#multiCollapseExample4" role="button" aria-expanded="false" aria-controls="multiCollapseExample4"><img src="./images/homepage/homepage-portrait-4.jpg" class="rounded-circle img-fluid"></a>
                                 <img src="images/homepage/wrench-solid.svg"
                                     class="rounded-circle px-2 py-2 bg-primary bottom-right portrait-icon" height="42" width="42">
                             </div>
                             <p class="heading"><strong>Reza Parker</strong></p>
                             <p>Plumber</p>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="multiCollapseExample4">
+                                        <div class="card card-body">
+                                        <h3>Reza Parker</h3>
+                                        <p>Been in the plumbing industry since 2014.</p>
+                                        <p>Reza has studied his practical and theoretical modules at the College of Cape Town.</p>
+                                        <p>He is hoping to write his trade test in 2018.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
