@@ -30,10 +30,10 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="./views/team.php">The Team</a>
+                                        <a class="nav-link" href="./views/team.html">The Team</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="./views/services.php">Services</a>
+                                        <a class="nav-link" href="./views/services.html">Services</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="btn btn-outline-light rounded-button" href="#contact"
@@ -164,13 +164,7 @@
                 <div class="col-lg-1">
                 </div>
             </div>
-            <!-- <div class="row">
-                <div class="col text-center">
-                    <a class="btn bg-info text-white rounded-button mt-5" href="./views/team.php" role="button">see the rest of the
-                        team</a>
-                </div>
-            </div> -->
-            <div class="row">
+                 <div class="row">
                 <div class="col text-center">
                     <p>
                         <a class="btn bg-info text-white rounded-button mt-5" data-toggle="collapse" href="#collapseTeam" role="button" aria-expanded="false" aria-controls="collapseTeam">
@@ -367,64 +361,3 @@
 </body>
 
 </html>
-
-
-<?php
-      
- 
-      $fname = $sname = $email = $phone = $message = "";
-      
-      if ($_SERVER["REQUEST_METHOD"] == "POST") {
-         $fname = test_input($_POST["fname"]);
-         $sname = test_input($_POST["sname"]);
-         $email = test_input($_POST["email"]);
-         $phone = test_input($_POST["phone"]);
-         $message = test_input($_POST["message"]);
-      }
-      
-      function test_input($data) {
-         $data = trim($data);
-         $data = stripslashes($data);
-         $data = htmlspecialchars($data);
-         return $data;
-      }
-
-
-     // connect to db
-     $servername = "localhost";
-     $username = "root";
-     $password = "Shukuk@1";
-     $dbname = "wilton-plumbing";
-
-
-     // Create connection
-     $conn = new mysqli($servername, $username, $password, $dbname);
-
-     // Check connection
-     if ($conn->connect_error) {
-         die("Connection failed: " . $conn->connect_error);
-     } 
-     echo "Connected successfully";
-
-
-     // get the form values
-     $sql = "INSERT INTO email (firstname, lastname, email, phone, message)
-     VALUES ('".$fname."', '".$sname."', '".$email."', '".$phone."','".$message."')";
-
-
-
-
-     if ($conn->query($sql) === TRUE) {
-         echo "New record created successfully";
-     } else {
-         echo "Error: " . $sql . "<br>" . $conn->error;
-     }
-
-
-     $conn->close();
-
-   ?>
-
-
-
-

@@ -23,22 +23,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav justify-content-center">
                 <li class="nav-item">
-                    <a class="nav-link" href="../index.php">Home</a>
+                    <a class="nav-link" href="../index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="team.php">Team</a>
+                    <a class="nav-link" href="team.html">Team</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="services.php">Services</a>
+                    <a class="nav-link" href="services.html">Services</a>
                 </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="gallery.php">Gallery</a>
-                </li> -->
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="blog.php">Blog</a>
-                </li> -->
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.php">Contact</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
